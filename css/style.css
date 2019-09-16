@@ -63,7 +63,7 @@ p {
 
 }
 
-.bg-dark {
+.bg-light {
     background: #f4f4f4;
     color: #333;
 }
@@ -74,8 +74,8 @@ p {
 }
 
 .bg-primary {
-    background: #333;
-    color: #f7c08a;
+    background: #f7c08a;
+    color: #333;
 }
 
 /* Navbar */
@@ -164,4 +164,15 @@ p {
 
 #home-info .info-content p {
     padding-bottom: 30px;
+}
+
+/* Features */
+.box{
+    float: left;
+    width: calc(100% / 3);
+    padding: 50px;
+    text-align: center;
+}
+.box i {
+    margin-bottom: 10px;
 }
