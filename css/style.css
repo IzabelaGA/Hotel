@@ -33,10 +33,11 @@ p {
     display: block;
     clear: both;
 }
+
 /* or */
-/* .clr{
+.clr{
     clear: both;
-} */
+}
 /* and below section with floats in HTML create empty div.clr */
 
 .container {
@@ -88,6 +89,21 @@ p {
 .bg-primary {
     background: #f7c08a;
     color: #333;
+}
+.l-leading{
+    font-size: 40px;
+}
+/* Padding */
+.py-1 {
+    padding: 10px 0;
+}
+
+.py-2 {
+    padding: 20px 0;
+}
+
+.py-3 {
+    padding: 30px 0;
 }
 
 /* Navbar */
@@ -188,6 +204,27 @@ p {
 
 .box i {
     margin-bottom: 10px;
+}
+
+/* About Info */
+
+#about-info .info-right {
+    float: right;
+    width: 50%;
+    min-height: 100%;
+}
+
+#about-info .info-right img {
+    display: block;
+    margin: auto;
+    width: 70%;
+    border-radius: 50%;
+}
+
+#about-info .info-left {
+    float: left;
+    width: 50%;
+    min-height: 100%;
 }
 
 /* Footer */
